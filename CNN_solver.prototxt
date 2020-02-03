@@ -1,0 +1,19 @@
+test_iter: 1000
+test_interval: 5000
+base_lr: 0.0001
+display: 20
+max_iter: 60000
+lr_policy: "step"
+gamma: 0.001
+momentum: 0.9
+weight_decay: 0.001
+stepsize: 50000
+snapshot: 50000
+snapshot_prefix: "/media/ctg-sugiri-ia2/ac13d8c4-7f4c-46c6-b0ed-7fbc475ab744/ctg-sugiri-ia2/driver_23May/snapshot"
+solver_mode: GPU
+device_id: 0
+net: "/media/ctg-sugiri-ia2/ac13d8c4-7f4c-46c6-b0ed-7fbc475ab744/ctg-sugiri-ia2/driver_23May/train_val_thermal.prototxt"
+train_state {
+  level: 0
+  stage: ""
+}
